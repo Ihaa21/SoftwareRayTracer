@@ -45,7 +45,6 @@ typedef int32_t b32;
 #define MegaBytes(Val) (KiloBytes(Val)*1024LL)
 #define GigaBytes(Val) (MegaBytes(Val)*1024LL)
 
-#include "pixelscratcher_string.h"
 #include "pixelscratcher_math.cpp"
 #include "pixelscratcher_memory.h"
 #include "pixelscratcher_render.h"
