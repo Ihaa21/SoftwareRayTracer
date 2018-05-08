@@ -1,7 +1,7 @@
 @echo off
 
-set CodeDir=W:\pixelscratcher\code
-set OutputDir=W:\pixelscratcher\build_win32
+set CodeDir=..\code
+set OutputDir=..\build_win32
 
 set CommonCompilerFlags=-O2 -nologo -fp:fast -fp:except- -Gm- -GR- -EHa- -Zo -Oi -WX -W4 -wd4127 -wd4201 -wd4100 -wd4189 -wd4505 -Z7 -FC
 set CommonCompilerFlags=-DPIXELSCRATCHER_INTERNAL=1 -DPIXELSCRATCHER_WINDOWS=1 %CommonCompilerFlags%
